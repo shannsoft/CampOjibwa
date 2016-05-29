@@ -1,0 +1,15 @@
+<ion-view class="camp-ojibwa-bg" view-title="Photos and videos">
+  <ion-nav-buttons side="left">
+    <button class="back-button" ng-click="goDashboard()">
+      <i class="icon ion-ios-arrow-back"></i>
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <div class="gallery-view">
+      <div class="galery-image-item" ng-repeat="image in gallery.photos track by $index">
+        <img src="{{image}}" width="100%" ng-click="openImageZoom(gallery.photos,$index)">
+      </div>
+    </div>
+    <!-- <ion-gallery ion-gallery-items="items"></ion-gallery> -->
+  </ion-content>
+</ion-view>

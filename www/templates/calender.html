@@ -1,0 +1,39 @@
+<ion-view class="" view-title="Calendar">
+  <ion-nav-buttons side="left">
+    <button class="back-button" ng-click="goDashboard()">
+      <i class="icon ion-ios-arrow-back"></i>
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <flex-calendar options="options" events="events"></flex-calendar>
+    <button class="button button-full btn-positive m-a">
+      Upcomming Events
+    </button>
+    <div class="upcommin-event-list">
+      <div class="row upcommin-event-item" ui-sref="event-details">
+        <div class="col-40 p-l-5-per">
+          <h5>March 11</h5>
+        </div>
+        <div class="col-60">
+          <h5>Swimming Competition</h5>
+        </div>
+      </div>
+      <div class="row upcommin-event-item" ui-sref="event-details">
+        <div class="col-40 p-l-5-per">
+          <h5>March 13</h5>
+        </div>
+        <div class="col-60">
+          <h5>Basketball (Team 1 vs Team 2)</h5>
+        </div>
+      </div>
+      <div class="row upcommin-event-item" ui-sref="event-details">
+        <div class="col-40 p-l-5-per">
+          <h5>March 15</h5>
+        </div>
+        <div class="col-60">
+          <h5>Baseball (Team 1 vs Team 2)</h5>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

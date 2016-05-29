@@ -1,0 +1,42 @@
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-side-menu-content >
+    <ion-nav-bar style="background: none;  border-bottom: none" class="side-menu-custom">
+      <ion-nav-buttons side="left">
+        <button class="button button-icon text-white ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left">
+    <ion-content class="side-menu-list" style="top:0;">
+    
+      <ion-list>
+      <div class="profile_outer">
+  	<div class="profile_pic"><img src="img/profile.png" /></div>
+    <h1>John Doe</h1>
+    <a ui-sref="profile">View my profile</a>
+  </div>
+        <a class="item item-icon-left"  ui-sref="contacts">
+          <i class="icon ion-android-contact"></i>
+          Contact
+        </a>
+        <a class="item item-icon-left" ui-sref="messages">
+          <i class="icon ion-android-mail"></i>
+          Messages
+          <span class="item-note">
+            1
+          </span>
+        </a>
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-ios-paperplane"></i>
+          Invite
+        </a>
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-android-exit"></i>
+          Logout
+        </a>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

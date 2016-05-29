@@ -1,0 +1,11 @@
+<div class="modal image-modal imageView gallery-popup">
+  <i class="close-btn ion-close-circled" ng-click="closeGalleryModal()"></i>
+  <i class="download-btn ion-android-download"></i>
+  <ion-slide-box show-pager="false" style="position:absolute;top:8%" active-slide="activeImageSlide">
+    <ion-slide ng-repeat="oImage in previewImages track by $index">
+      <ion-scroll zooming="true" direction="xy" delegate-handle="zoom-pane" class="zoom-pane" min-zoom="1" scrollbar-x="false" scrollbar-y="false" >
+        <img ng-src="{{oImage}}" class="fullscreen-image"/ >
+      </ion-scroll>
+    </ion-slide>
+  </ion-slide-box>
+</div>

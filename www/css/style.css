@@ -1,0 +1,676 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+/*===================font-family: 'Roboto', sans-serif;========================*/
+
+/*******************************************************************************/
+/*****************************Application Style*********************************/
+/*******************************************************************************/
+.scroll{height:100%;}
+.camp-ojibwa-bg{background: #F4F4F4;}
+.theme-color{color: #AB3137;}
+.font-color{color:#A7A7A7!important;};
+.theme-bg{background: #AB3137;}
+.theme-header{background: #AB3137;color: #fff;text-transform: uppercase;}
+.theme-header h1{color:#fff;}
+.theme-header .title{text-align: center;}
+.bar .button.back-button, .bar button.back-button{background: transparent;color: #fff;border:none;}
+.button:hover {color: #FFF;text-decoration: none;}
+.form-inputs{padding-left: 10px !important;}
+.form-inputs::-webkit-input-placeholder{color:#000;}
+.form-inputs:-moz-placeholder{color:#000;}
+.form-inputs::-moz-placeholder{color:#000;}
+.form-inputs:-ms-input-placeholder{color:#000;}
+.font-color-danger{color: #AB3137;}
+/*******************************************************************************/
+/*****************************Splash Page Style*********************************/
+/*******************************************************************************/
+
+.logo img {
+    max-width: 75%;
+}
+.logo {
+    bottom: 0;
+    height: 27%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -18%;
+    width: 100%;
+}
+
+.home-page-footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+.home-page-footer .button{
+  height:50%;
+  width:100%;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding:10px 0;
+}
+.button.btn-assertive{background-color: #AB3137;border: none;color: #fff;}
+.btn-positive{background-color: #253758 !important ;border: none;color: #fff;}
+
+/*******************************************************************************/
+/*****************************Login Page Style**********************************/
+/*******************************************************************************/
+.login-page{
+  padding-top: 10%;
+}
+.login-page .item{
+  border: none;
+  margin-top:1px;
+}
+.login-page .button-full{
+  margin-top:8%;
+}
+.login-page .sign-up{
+  padding-top:45%;
+}
+.forgot {
+    position: relative;
+    width: auto;
+}
+.login-page .item-note {
+  cursor: pointer;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  z-index: 999;
+  text-decoration:none;
+}
+.login-page i{
+	font-size:20px;
+	}
+/*******************************************************************************/
+/*****************************Signup Page Style*********************************/
+/*******************************************************************************/
+.signup-page{height:100%}
+.user-image{
+  height:30%;
+  position: relative;
+}
+.signup-page .item-select {
+  width: 100%;
+}
+.signup-page .item-select select {
+  left: 0;
+  padding-left: 22px;
+  direction: initial;
+}
+.user-image-circle{
+  width:75px;
+  height:75px;
+  background: #fff;
+  border-radius: 50%;
+  margin:5% 40%;
+  padding-top: 15px;
+}
+.user-image .icon{
+  font-size:45px;
+  color:#F4F4F4;
+}
+/*******************************************************************************/
+/*****************************Dashboard Page Style******************************/
+/*******************************************************************************/
+.side-menu-custom .bar-header{
+  width:0% !important;
+  padding:0px !important;
+}
+.side-menu-list .icon{
+  font-size: 20px;
+  color:#AB3137;
+}
+.side-menu-list .item-note{
+  background: #243658;
+  font-size: 12px;
+  height: 18px;
+  width:18px;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+}
+.dashboard-page-banner{
+  background: url('../img/banner1.jpg') no-repeat scroll center center / cover ;
+  height:40%;
+}
+.dashboard-footer{
+  height:60%;
+  width:100%;
+  position: relative;
+}
+.camp-btn{
+  height:33.33%;
+  padding: 0;
+  margin:0 !important;
+}
+.camp-btn h6{
+  font-size: 11px !important;
+}
+
+/*******************************************************************************/
+/************************Video And Photos Page Style****************************/
+/*******************************************************************************/
+.gallery-tab .tab-item .icon{
+  height:0;
+}
+.gallery-tab .tab-item.tab-item-active, .gallery-tab .tab-item.active, .tab-item.activated{
+  border-color: #AB3137;
+}
+.gallery-view {
+  width:100% !important;
+  display: inline-table;
+  padding:5px;
+}
+.gallery-view .galery-image-item{
+  display: inline-block;
+  width:33.33%;
+  padding:5px 5px 0;
+  float:left;
+}
+.gallery-tab > .tabs {
+  background: #fff !important;
+  border-color: #cfcfcf;
+}
+.tab-item-active{
+  border-bottom:3px solid #ab3137 !important;
+}
+.gallery-popup{
+  background-color: rgba(0,0,0,1);
+}
+.download-btn{
+    color: white;
+    float: left;
+    margin-top: 5px;
+    font-size: 37px;
+    margin-left: 10px;
+}
+.close-btn{
+    color: white;
+    float: right;
+    margin-top: 5px;
+    font-size: 37px;
+    margin-right: 10px;
+}
+
+
+
+/*******************************************************************************/
+/************************************Album**************************************/
+/*******************************************************************************/
+
+.album-image-item {
+  display: inline-block;
+  float: left;
+  padding: 1% 1% 0;
+  position: relative;
+  width: 50%;
+}
+.album_details{
+	bottom: 4px;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    width: 96%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	}
+.album_details h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:17px;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#fff;
+	margin:0;
+	}
+.album_details p{
+	margin:0;
+	}
+.views{
+	font-family: 'Roboto', sans-serif;
+	font-size:12px;
+	font-weight:300;
+	color:#ccc;
+	}
+.views_album{
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	font-weight:300;
+	color:#ccc;
+	float:right;
+	}
+/*******************************************************************************/
+/************************************Video**************************************/
+/*******************************************************************************/
+
+.video-image-item {
+  display: inline-block;
+  float: left;
+  padding: 1% 1% 0;
+  position: relative;
+  width: 100%;
+}
+.video_details{
+	bottom: 4px;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    width: 98%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	}
+.video_details h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:17px;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#fff;
+	margin:0;
+	}
+.video_details h6{
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#b22d31;
+	margin:0;
+	}
+.video_details p{
+	margin:0;
+	}
+video{
+	width:100%;
+	}
+
+/*******************************************************************************/
+/*******************************Blog Page Style*********************************/
+/*******************************************************************************/
+.blog-list{}
+.blog-list .blog-item{
+  padding-top:18px;
+  padding-left: 120px;
+  min-height: 135px;
+  background: #F9F9F9;
+}
+}
+.blog-item h2{
+  margin: 0;
+}
+.blog-item .blog-date,
+.blog-item .blog-status{
+  font-size: 10px;
+  color:#D7D7D7;
+}
+.blog-author{
+  font-size: 12px;
+  color:#AB3137;
+}
+.blog-item > img:first-child,
+.blog-item .item-image,
+.blog-item .item-content > img:first-child,
+.blog-item .item-content .item-image{
+    top: 15px;
+    max-width: 100px;
+    max-height: 100px;
+}
+/*******************************************************************************/
+/****************************BlogDetails Page Style*****************************/
+/*******************************************************************************/
+.blog-image{
+  padding:0;
+}
+.blog-image img{
+  width:100%;
+  height:20%;
+  padding:0;
+}
+.blog-title{
+  font-size: 15px;
+  margin: 15px 5px;
+  font-weight: 500;
+}
+.blog-status .blog-author{
+  margin: 0px 5px 15px;
+  font-weight: 500;
+}
+.blog-status-det{
+  /*margin: 0px 3px 15px;*/
+}
+.blog-status-det .blog-review{
+  font-size: 10px;
+  color:#A7A7A7;
+}
+.blog-content p,.blog-comment-list p{
+  color:#A7A7A7;
+}
+.replay-btn{
+  background: transparent;
+  border: none;
+  color: #AB3137;
+  padding: 0;
+  font-size:12px;
+}
+/*******************************************************************************/
+/****************************Calender Page Style*****************************/
+/*******************************************************************************/
+.flex-calendar{
+  color: #000 !important;
+}
+.flex-calendar .month{
+  background-color:#F4F4F4 !important;
+}
+.flex-calendar .month .arrow, .flex-calendar .month .label{
+  height: 40px !important;
+}
+.flex-calendar .month .label{
+  font-size:14px !important;
+  text-transform: capitalize !important;
+  line-height:45px !important;
+}
+.flex-calendar .week{
+  background-color:#fff !important;
+  padding: 5px 0;
+  font-size: 12px !important;
+}
+.flex-calendar .days .day{
+  min-height: 35px !important;
+  line-height: 35px !important;
+  background-color:#F4F4F4 !important;
+  border:none !important;
+}
+.flex-calendar .days .day.selected .number{
+  width:25px !important;
+  height:25px !important;
+  line-height: 25px !important;
+  background-color: #AB3137 !important;
+}
+.flex-calendar .days .day.disabled .number{
+  background-image: none !important;
+  background-color:transparent !important;
+}
+.flex-calendar .days .day.event:before{
+  background-color:transparent !important;
+}
+.upcommin-event-list h5{
+  color: #444 !important;
+}
+.upcommin-event-item{
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+/*******************************************************************************/
+/****************************Event details Page Style***************************/
+/*******************************************************************************/
+.event-image{
+  padding:0;
+}
+.event-image img{
+  width:100%;
+  height:20%;
+  padding:0;
+}
+.event-title{
+  font-size: 15px;
+  margin: 15px 5px;
+  font-weight: 500;
+}
+.event-author{
+  color: #AB3137;
+}
+.event-status .event-author{
+  margin: 0px 5px 15px;
+  font-weight: 500;
+}
+/*******************************************************************************/
+/****************************Messages list Page Style***************************/
+/*******************************************************************************/
+.messages-list{
+
+}
+.messages-list .item{
+  border: none;
+}
+.messages-list .item-content{
+  padding-right:10px;
+}
+.test{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+    bottom: 0;
+}
+.swipe-btn{
+  height: 100%;
+  margin: 0 !important;
+  width: auto !important;
+  float: right;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  display: inline;
+  clear: initial;
+}
+
+
+
+/*==================================================================*/
+/*=============================Profile==============================*/
+/*==================================================================*/
+
+.profile_outer{
+	background:url(../img/profile_bg.png) no-repeat;
+	background-size:100%;
+	float: left;
+    padding: 15% 0 8%;
+	}
+.profile_pic {
+    bottom: 0;
+    height: 70%;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 70%;
+}
+.profile_pic img {
+    border-radius: 50%;
+    width: 100%;
+}
+.profile_outer h1 {
+    color: #4a4a4a;
+    float: left;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.profile_outer a {
+    float: left;
+    text-align: center;
+    width: 100%;
+	color:#b22e33;
+}
+
+/*==================================================================*/
+/*=============================Contacts=============================*/
+/*==================================================================*/
+
+.custom_list {
+    padding-right: 40px;
+    position: relative;
+}
+.next_icon {
+    color: #ccc;
+    position: absolute;
+    right: 16px;
+    top: 24px;
+}
+.custom_list h2 {
+    margin-top: 7px;
+}
+/*==================================================================*/
+/*=============================My Profile===========================*/
+/*==================================================================*/
+
+.profile_head{
+	background:url(../img/profile_background.jpg) top center no-repeat;
+	padding:6%;
+	text-align:center;
+	background-size:cover;
+	}
+.myprofile {
+    height: 40%;
+    margin: auto;
+    position: relative;
+    width: 40%;
+}
+.myprofile img {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+}
+.profile_head h1 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.profile_head p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.item.profile_list > span {
+  float: left;
+  width: 50%;
+}
+.item.profile_list > span i {
+  float: left;
+  font-size: 21px;
+  padding: 0 10px 0 0;
+}
+.camera_profile{
+	color:#fff;
+	font-size:30px;
+	position:absolute;
+	bottom:0;
+	right:-10px;
+	}
+  /*==================================================================*/
+  /*===========================gallery image style====================*/
+  /*==================================================================*/
+  .gallery-view{
+    margin-top:20px;
+  }
+  .gallery-view .image-container{
+  	position:relative;
+  	overflow:hidden;
+  	border:2px solid white;
+  }
+  .gallery-view .image-container img{
+  	position:absolute;
+  	top:-9999px;
+  	bottom:-9999px;
+  	left:-9999px;
+  	right:-9999px;
+  	margin:auto
+  }
+  .imageView .has-no-header{
+  	top:0px !important
+  }
+  .imageView .close-btn{
+  	font-weight:900;
+  	border:2px solid;
+  	position:absolute;
+  	right:5px;
+  	border-radius:5px
+  }
+  .imageView .headerView{
+  	background-image:none;
+  	background-color:black
+  }
+  .imageView .gallery-slide-view{
+  	width:98%;
+  	background-color:transparent
+  }
+  .imageView .image-subtitle{
+  	color:white;
+  	position:absolute;
+  	bottom:0px;
+  	left:10px;
+  	width:95%;
+  	height:15%;
+  	z-index:100
+  }
+  .imageView .listContainer{
+  	width:100%;
+  	height:100%;
+  	background-color:black
+  }
+  .imageView .hideAll{
+  	display:none
+  }
+  .imageView img{
+  	display:block;
+  	width:100%;
+  	height:auto
+  }
+  .imageView .scroll-view{
+  	position:absolute;
+  	width:100%;
+  	height:100%
+  }
+  .imageView .scroll-view .scroll{
+  	min-height:100%;
+  	display:-webkit-box;
+  	display:-moz-box;
+  	display:-ms-flexbox;
+  	display:-webkit-flex;
+  	display:flex;
+  	-webkit-box-direction:normal;
+  	-moz-box-direction:normal;
+  	-webkit-box-orient:horizontal;
+  	-moz-box-orient:horizontal;
+  	-webkit-flex-direction:row;
+  	-ms-flex-direction:row;
+  	flex-direction:row;
+    -webkit-flex-wrap:nowrap;
+    -ms-flex-wrap:nowrap;
+    flex-wrap:nowrap;
+    -webkit-box-pack:center;
+    -moz-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-align-content:stretch;
+    -ms-flex-line-pack:stretch;
+    align-content:stretch;
+    -webkit-box-align:center;
+    -moz-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center
+  }

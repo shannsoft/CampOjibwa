@@ -1,0 +1,58 @@
+<ion-view view-title="Messages">
+  <ion-nav-buttons side="left">
+    <button class="back-button" ng-click="goDashboard()">
+      <i class="icon ion-ios-arrow-back"></i>
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <ion-list class="list messages-list" on-drag-left="onDragLeft()">
+      <ion-item class="item item-avatar">
+        <img src="img/prof1.jpg">
+        <h2 class="inline">Venkman</h2>
+        <span class="right font-14 font-color">10:26 PM</span>
+        <div class="">
+          <p class="inline font-color">Back off, man. I'm a scientist.</p>
+          <span class="right font-14 font-color-danger">3 messages</span>
+          <ion-option-button class="button-assertive">
+          Delete
+        </ion-option-button>
+        </div>
+        
+      </ion-item>
+      <ion-item ng-repeat="item in messagesList" class="item item-avatar" on-swipe-right="swipe('right',$index)" on-swipe-left="swipe('left',$index)">
+        <img src="img/prof1.jpg">
+        <h2 class="inline">{{item.name}}</h2>
+        <span class="right font-14 font-color">{{item.time}}</span>
+        <div class="">
+          <p class="inline font-color">{{item.lastMessage}}</p>
+          <span class="right font-14 font-color-danger" ng-if="item.unread > 0">{{item.unread}} messages</span>
+        </div>
+        <div class="test" ng-if="item.gesture == 'left'">
+          <button class="button button-block swipe-btn">
+            undo
+          </button>
+          <button class="button button-block swipe-btn">
+            Delete
+          </button>
+        </div>
+      </ion-item>
+      <ion-item class="item item-avatar" on-swipe-right="gesture[2] = 'right'" on-swipe-left="gesture[2] = 'left'">
+        <img src="img/prof1.jpg">
+        <h2 class="inline">Venkman</h2>
+        <span class="right font-14 font-color">10:26 PM</span>
+        <div class="">
+          <p class="inline font-color">Back off, man. I'm a scientist.</p>
+          <span class="right font-14 font-color-danger">3 messages</span>
+        </div>
+        <div class="test" ng-if="gesture[2] == 'left'">
+          <button class="button button-block swipe-btn">
+            undo
+          </button>
+          <button class="button button-block swipe-btn">
+            Delete
+          </button>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
